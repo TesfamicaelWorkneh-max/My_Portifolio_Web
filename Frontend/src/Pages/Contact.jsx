@@ -83,11 +83,10 @@ const Contact = () => {
       message: messageRef.current.value,
     };
 
-    // Detect backend URL dynamically
     const backendURL =
       window.location.hostname === "localhost"
-        ? "http://localhost:5000/api/email" // local backend
-        : "https://tesfamicael-workneh-portifolio-web.onrender.com/api/email"; // deployed backend
+        ? "http://localhost:5000/api/email"
+        : `${import.meta.env.VITE_API_URL}`;
 
     try {
       const response = await fetch(backendURL, {

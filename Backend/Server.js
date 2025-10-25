@@ -10,7 +10,10 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const app = express();
 app.use(
   cors({
-    origin: "https://your-frontend-url.com",
+    origin: [
+      "http://localhost:5173",
+      "https://tesfamicael-workneh-portifolio-web.onrender.com",
+    ],
   })
 );
 app.use(express.json());

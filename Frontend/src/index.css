@@ -1,0 +1,54 @@
+/* @import "tailwindcss"; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding: 58px; */
+  font-family: "poppins";
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
+  overflow-y: scroll;
+}
+/* @theme {
+  --color-chestnut: #765f29;
+} */
+
+.beforepro::before {
+  @apply rounded-[7px] content-[''] absolute origin-right w-full -bottom-1 bg-red-400 h-[5px] scale-x-0 transition-transform;
+}
+
+.beforepro:hover::before {
+  @apply scale-x-100;
+}
+.display {
+  @apply max-lg:flex max-lg:h-[100vh] max-lg:transition-[left] max-lg:text-white max-lg:left-[0] max-lg:absolute max-lg:top-[100%] max-lg:z-10 max-lg:w-[25%] max-sm:w-[50%] max-lg:text-xl max-lg:gap-20 max-lg:flex-col max-lg:bg-gray-900;
+}
+.hide {
+  @apply max-lg:hidden max-lg:left-[200%];
+}
+.button-hover::before {
+  @apply w-[15%] top-[-40%] left-[-11%] transition-[left] absolute h-[180%] bg-white rotate-[45deg] content-[""] hover:left-[100%];
+}
+.ptext {
+  @apply text-lg text-gray-300;
+}
+
+/* @layer base {
+  h1 {
+    @apply pt-[50px] text-center text-[clamp(2rem,5vw,15rem)] font-mono font-extrabold;
+  }
+  p {
+    @apply pt-[50px] text-center text-[clamp(2rem,5vw,15rem)] font-mono font-extrabold;
+  }
+} */

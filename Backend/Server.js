@@ -8,7 +8,11 @@ dotenv.config();
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://your-frontend-url.com",
+  })
+);
 app.use(express.json());
 
 // Debug middleware to see incoming requests
@@ -17,7 +21,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.post("/api/send", async (req, res) => {
+app.post("/api/email", async (req, res) => {
   const { name, email, message } = req.body;
   console.log("Received request body:", req.body);
 

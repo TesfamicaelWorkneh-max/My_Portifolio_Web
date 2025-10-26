@@ -11,9 +11,11 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
       "https://tesfamicael-workneh-portifolio-web.onrender.com",
+      "http://localhost:5174",
     ],
+    methods: ["GET", "POST"],
+    credentials: true,
   })
 );
 app.use(express.json());

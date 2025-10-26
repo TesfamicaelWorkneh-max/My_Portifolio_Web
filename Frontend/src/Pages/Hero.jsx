@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileimg from "../assets/ProfileImage4.jpg";
+import profileimg from "../assets/ProfileImage8.jpg";
 import { FaInstagram, FaLinkedin, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Hero = () => {
@@ -14,14 +14,14 @@ const Hero = () => {
     <section className="min-h-[100vh] dark:bg-slate-950 bg-white text-slate-50  flex items-center justify-center px-6 py-12 overflow-hidden max-sm:py-24">
       <motion.div
         className="flex flex-col lg:flex-row items-center justify-between w-full max-w-6xl gap-12 md:px-4 py-4 max-lg:flex-col-reverse"
-        initial={{ opacity: 0, x: 80 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 1, ease: "linear" }}
       >
         <motion.div
-          initial={{ opacity: 0, x: 80 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
           className="flex flex-col justify-center text-center lg:text-left w-full gap-6"
         >

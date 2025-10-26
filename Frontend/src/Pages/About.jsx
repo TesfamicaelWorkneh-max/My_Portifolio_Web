@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileimg from "../assets/ProfileImage5.jpg";
+import profileimg from "../assets/ProfileImage8.jpg";
 const About = () => {
   const skillsTree = [
     {

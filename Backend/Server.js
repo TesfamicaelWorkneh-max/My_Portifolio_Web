@@ -11,8 +11,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://tesfamicael-workneh-portifolio-web.onrender.com",
       "http://localhost:5174",
+      "https://tesfamicael-portifolio.netlify.app",
     ],
     methods: ["GET", "POST"],
     credentials: true,

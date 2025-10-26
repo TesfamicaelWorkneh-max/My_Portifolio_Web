@@ -14,7 +14,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:5175",
-      "https://https://my-portifolio-web-ashy.vercel.app",
+      "https://my-portifolio-web-ashy.vercel.app",
     ],
     methods: ["GET", "POST"],
     credentials: true,

@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const footerVariants = {
-  hidden: { opacity: 0, y: 40 },
+  hidden: { opacity: 0, y: 20 },
   visible: (i) => ({
     opacity: 1,
     y: 0,
@@ -15,7 +15,7 @@ const footerVariants = {
 
 const Footer = () => {
   return (
-    <footer className="sticky top-[100%] bg-gray-950 backdrop-blur-md text-gray-50 py-6 px-8 w-full min-h-[20vh] shadow-lg z-50 overflow-hidden bottom-0">
+    <footer className="sticky top-[100%] bg-gray-950 backdrop-blur-md text-gray-50 py-6 px-8 w-full min-h-[20vh] shadow-lg z-50 overflow-hidden">
       <div className="max-w-6xl mx-auto p-2">
         <motion.div
           className="flex flex-col md:flex-row justify-around items-start"

@@ -101,19 +101,19 @@ const About = () => {
   ];
 
   const cardVariantsleft = {
-    hidden: { opacity: 0, x: -50 },
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      x: 0,
-      transition: { duration: 1, ease: "linear" },
+
+      transition: { duration: 1.5, ease: "linear" },
     },
   };
   const cardVariantsright = {
-    hidden: { opacity: 0, x: 50 },
+    hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      x: 0,
-      transition: { duration: 1, ease: "linear" },
+
+      transition: { duration: 1.5, ease: "linear" },
     },
   };
 

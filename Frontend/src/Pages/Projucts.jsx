@@ -64,7 +64,7 @@ const Projucts = () => {
           transition={{ duration: 1 }}
         >
           <h1
-            className="w-fit relative text-4xl xl:text-6xl dark:text-white font-bold
+            className="w-fit relative text-4xl xl:text-5xl dark:text-white font-bold
            text-slate-950 text-center before:absolute before:h-1 before:w-full 
            before:content-[''] dark:before:bg-white before:bg-slate-950 before:left-0 before:top-[115%]
            after:absolute after:w-5 after:h-5 after:bg-red-600 after:content-[''] 

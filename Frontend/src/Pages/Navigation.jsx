@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProfileImage from "../assets/nasa2.png";
+import ProfileImage from "../assets/nasa.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import ThemeToggle from "../Components/ThemeToggle";

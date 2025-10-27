@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import nasa from "../assets/nasa.jpg";
+import real_estate from "../assets/rel-estate.png";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaCheckCircle } from "react-icons/fa"; // Success / congrats icon
@@ -92,7 +93,7 @@ const Contact = () => {
             className="w-80 h-80 max-sm:w-60 max-sm:h-60 rounded-full flex items-center justify-center overflow-hidden bg-red-500"
           >
             <img
-              src={nasa}
+              src={real_estate}
               alt="Globe"
               className="w-full h-full object-cover rounded-full"
             />

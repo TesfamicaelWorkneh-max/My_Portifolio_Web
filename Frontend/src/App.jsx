@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Projucts from "./Pages/Projucts";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./Pages/Footer";
+import Skills from "./Pages/Skills";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projucts />} />
+        <Route path = "/skills" element={<Skills/>}
       </Routes>
       <Footer />
     </>

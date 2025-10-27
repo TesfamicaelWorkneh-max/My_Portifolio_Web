@@ -7,7 +7,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const links = ["Home", "About", "Projects", "Contact"];
+  const links = ["Home", "About", "Projects", "Contact", "Skills"];
 
   return (
     <header className="fixed top-0 left-0 w-full dark:bg-slate-950 backdrop-blur-md z-[9999]  bg-white/20 px-3">

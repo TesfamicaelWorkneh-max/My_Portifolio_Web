@@ -9,17 +9,15 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        pulseHeight: {
-          "0%, 100%": { height: "50px" },
-          "50%": { height: "200px" },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
       animation: {
-        "pulse-height": "pulseHeight 4s infinite ease-in-out",
+        marquee: "marquee 30s linear infinite",
       },
     },
   },
-  plugins: [
-    // Add plugins here if needed
-  ],
+  plugins: [],
 };

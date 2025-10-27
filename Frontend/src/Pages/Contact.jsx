@@ -92,7 +92,7 @@ const Contact = () => {
             className="w-80 h-80 max-sm:w-60 max-sm:h-60 rounded-full flex items-center justify-center overflow-hidden bg-red-500"
           >
             <img
-              src="Images/nasa.jpg"
+              src={nasa}
               alt="Globe"
               className="w-full h-full object-cover rounded-full"
             />

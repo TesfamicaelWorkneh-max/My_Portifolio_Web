@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileimg from "../assets/ProfileImage8.jpg";
+import ProfleImage from "../assets/ProfileImage8.png";
 const About = () => {
   const skillsTree = [
     {
@@ -157,7 +157,7 @@ const About = () => {
                     className={`w-14 h-14 flex items-center rounded-full justify-center dark:bg-blue-400 bg-red-600 overflow-hidden absolute ${isLeft ? "md:left-[125%]" : "md:-left-[25%]"} max-sm:left-[50%] -translate-x-[50%] z-10 -top-[10%] max-sm:top-[-40%]`}
                   >
                     <img
-                      src="/Images/ProfileImage8.jpg"
+                      src={ProfleImage}
                       className="w-full rounded-full"
                     ></img>
                   </div>

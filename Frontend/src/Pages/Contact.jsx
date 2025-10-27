@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import nasa from "../assets/nasa.jpg";
+import nasa from "../assets/nasa.png";
 // import real_estate from "../assets/rel-estate.png";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";

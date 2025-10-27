@@ -59,7 +59,7 @@ const Projucts = () => {
         <motion.div
           className="w-full max-w-6xl flex justify-center items-center"
           initial={{ opacity: 0, y: 50 }}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: true, amount: 0.7 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >

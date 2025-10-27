@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileimg from "../assets/ProfileImage8.jpg";
+
 import { FaInstagram, FaLinkedin, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Hero = () => {
@@ -10,6 +10,8 @@ const Hero = () => {
     { Icon: FaTiktok, delay: 0.4 },
     { Icon: FaYoutube, delay: 0.6 },
   ];
+
+  const profileimg = "/images/ProfileImage8.jpg";
   return (
     <section className="min-h-[100vh] dark:bg-slate-950 bg-white text-slate-50  flex items-center justify-center px-6 py-12 overflow-hidden max-sm:py-24">
       <motion.div
@@ -93,7 +95,7 @@ const Hero = () => {
             className="flex justify-center z-10 items-center before:rounded-full before:absolute before:bg-gradient-to-r from-blue-600 to-red-500  before:w-[260px] before:z-[-1] before:h-[260px]  before:sm:w-[330px]  before:sm:h-[330px] before:contents-[''] relative w-[250px] h-[250px] sm:w-[320px] sm:h-[320px]  rounded-full shadow-[0_0_40px_-10px_rgba(100,100,100,1)] hover:shadow-[0_0_70px_-10px_rgba(34,197,94,0.8)]  dark:shadow-[0_0_40px_-10px_rgba(34,100,94,0.6)] transition-shadow duration-500"
           >
             <img
-              src={profileimg}
+              src="/images/ProfileImage8.jpg"
               alt="Tesfamicael"
               className="w-full h-full object-cover rounded-full"
             />

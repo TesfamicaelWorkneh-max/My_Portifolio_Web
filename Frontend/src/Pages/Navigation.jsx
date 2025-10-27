@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profileimg from "../assets/ProfileImage5.jpg";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import ThemeToggle from "../Components/ThemeToggle";
@@ -9,10 +9,6 @@ const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const links = ["Home", "About", "Projects", "Contact"];
 
-  // const nav_Varient = [
-  //    hidden={y:"100%"},
-  //    vissible={y:0}
-  // ]
   return (
     <header className="fixed top-0 left-0 w-full dark:bg-slate-950 backdrop-blur-md z-[9999]  bg-white/20 px-3">
       <nav className="flex items-center justify-around px-6 md:px-20 py-3 text-slate-50 overflow-x-hidden">
@@ -24,7 +20,7 @@ const Navigation = () => {
             transition={{ duration: 0.3 }}
           >
             <img
-              src={profileimg}
+              src="/images/ProfileImage8.jpg"
               alt="Profile"
               className="w-10 h-10 max-sm:w-8 max-sm:h-8 rounded-full object-cover dark:border-red-600 border-slate-950 border-2"
             />

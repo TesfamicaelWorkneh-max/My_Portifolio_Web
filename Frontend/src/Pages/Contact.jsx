@@ -51,7 +51,7 @@ const Contact = () => {
 
     const backendURL =
       window.location.hostname === "localhost"
-        ? "http://localhost:5000/api/email"
+        ? "http://localhost:5173/api/email"
         : import.meta.env.VITE_API_URL ||
           "https://my-portifolio-web-1.onrender.com/api/email";
 

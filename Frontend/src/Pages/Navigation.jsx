@@ -20,7 +20,7 @@ const Navigation = () => {
             transition={{ duration: 0.3 }}
           >
             <img
-              src="/images/ProfileImage8.jpg"
+              src="/Images/ProfileImage8.jpg"
               alt="Profile"
               className="w-10 h-10 max-sm:w-8 max-sm:h-8 rounded-full object-cover dark:border-red-600 border-slate-950 border-2"
             />

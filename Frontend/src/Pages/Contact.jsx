@@ -40,41 +40,6 @@ const Contact = () => {
     }),
   };
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   const data = {
-  //     name: nameRef.current.value,
-  //     email: emailRef.current.value,
-  //     message: messageRef.current.value,
-  //   };
-
-  //   try {
-  //     const response = await fetch(
-  //       "https://tesfamicael-workneh-portifolio-web.onrender.com/api/email",
-  //       {
-  //         method: "POST",
-  //         headers: { "Content-Type": "application/json" },
-  //         body: JSON.stringify(data),
-  //       }
-  //     );
-
-  //     const result = await response.json();
-
-  //     if (response.ok) {
-  //       setSuccess(true);
-  //       setError(false);
-  //       nameRef.current.value = "";
-  //       emailRef.current.value = "";
-  //       messageRef.current.value = "";
-  //     } else {
-  //       throw new Error("Failed to send email");
-  //     }
-  //   } catch (error) {
-  //     setError(true);
-  //     setTimeout(() => setError(false), 3000);
-  //   }
-  // };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
@@ -127,7 +92,7 @@ const Contact = () => {
             className="w-80 h-80 max-sm:w-60 max-sm:h-60 rounded-full flex items-center justify-center overflow-hidden bg-red-500"
           >
             <img
-              src={nasa}
+              src="Images/nasa.jpg"
               alt="Globe"
               className="w-full h-full object-cover rounded-full"
             />

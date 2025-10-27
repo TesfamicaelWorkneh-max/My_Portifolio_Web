@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileimage from "../assets/ProfileImage8.jpg";
+import profileimage from "../assets/ProfileImage7.jpg";
 import { FaInstagram, FaLinkedin, FaTiktok, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Hero = () => {

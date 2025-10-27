@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ProfleImage from "../assets/nasa.png";
+import ProfleImage from "../assets/nasa2.png";
 const About = () => {
   const skillsTree = [
     {

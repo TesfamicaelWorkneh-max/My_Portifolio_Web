@@ -15,7 +15,7 @@ const footerVariants = {
 
 const Footer = () => {
   return (
-    <footer className="sticky top-[100%] bg-gray-900 backdrop-blur-md text-gray-50 py-6 px-8 w-full shadow-lg z-50 overflow-hidden">
+    <footer className="sticky top-[100%] bg-gray-950 backdrop-blur-md text-gray-50 py-6 px-8 w-full min-h-[20vh] shadow-lg z-50 overflow-hidden bottom-0">
       <div className="max-w-6xl mx-auto p-2">
         <motion.div
           className="flex flex-col md:flex-row justify-around items-start"
@@ -69,6 +69,14 @@ const Footer = () => {
                 className="hover:text-red-600 cursor-pointer transition"
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/skills"
+                className="hover:text-red-600 cursor-pointer transition"
+              >
+                skills
               </Link>
             </li>
           </motion.ul>

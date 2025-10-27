@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import ProfileImage from "../assets/ProfileImage8.jpg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AnimatePresence, motion } from "framer-motion";
 import ThemeToggle from "../Components/ThemeToggle";
@@ -20,7 +20,7 @@ const Navigation = () => {
             transition={{ duration: 0.3 }}
           >
             <img
-              src="/Images/ProfileImage8.jpg"
+              src={ProfileImage}
               alt="Profile"
               className="w-10 h-10 max-sm:w-8 max-sm:h-8 rounded-full object-cover dark:border-red-600 border-slate-950 border-2"
             />

@@ -15,7 +15,7 @@ const footerVariants = {
 
 const Footer = () => {
   return (
-    <footer className="sticky top-[100%] bg-gray-950 backdrop-blur-md text-gray-50 py-6 px-8 w-full min-h-[20vh] shadow-lg z-50 overflow-hidden">
+    <footer className="sticky top-[100%] dark:bg-gray-950 bg-white backdrop-blur-md text-gray-50 py-6 px-8 w-full min-h-[20vh] shadow-lg z-50 overflow-hidden">
       <div className="max-w-6xl mx-auto p-2">
         <motion.div
           className="flex flex-col md:flex-row justify-around items-start"
@@ -26,7 +26,7 @@ const Footer = () => {
           <motion.h2
             custom={0}
             variants={footerVariants}
-            className="text-xl font-semibold mb-3 md:mb-0"
+            className="text-xl  mb-3 md:mb-0 text-slate-950 font-bold dark:text-gray-50"
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-500 underline underline-offset-8">
               Tesfamicael
@@ -37,7 +37,7 @@ const Footer = () => {
           <motion.ul
             custom={1}
             variants={footerVariants}
-            className="flex gap-6 max-sm:flex-col mb-3"
+            className="flex gap-6 max-sm:flex-col mb-3 text-slate-950 dark:text-gray-50"
           >
             <li>
               <Link
@@ -84,7 +84,7 @@ const Footer = () => {
           <motion.div
             custom={2}
             variants={footerVariants}
-            className="flex space-x-4 text-xl"
+            className="flex space-x-4 text-xl text-slate-950 font-bold dark:text-gray-50"
           >
             <a href="#" className="hover:text-red-600 transition">
               <FaGithub />
@@ -111,7 +111,7 @@ const Footer = () => {
             custom={3}
             variants={footerVariants}
             href="mailto:worknehtesfamicael707@gmail.com"
-            className="flex items-center space-x-2 hover:text-red-600 transition"
+            className="flex items-center space-x-2 hover:text-red-600 transition text-slate-950 font-bold dark:text-gray-50 "
           >
             <MdEmail className="text-2xl" />
             <span className="max-sm:text-sm sm:text-xl">
@@ -123,7 +123,7 @@ const Footer = () => {
             custom={4}
             variants={footerVariants}
             href="tel:+251964623413"
-            className="flex items-center space-x-2 hover:text-red-600 transition"
+            className="flex items-center space-x-2 hover:text-red-600 transition text-slate-950 font-bold dark:text-gray-50"
           >
             <FiPhoneCall className="text-xl" />
             <span className="max-sm:text-sm sm:text-xl">+251 96 462 3413</span>

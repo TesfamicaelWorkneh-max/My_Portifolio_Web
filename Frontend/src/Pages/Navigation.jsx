@@ -34,7 +34,7 @@ const Navigation = () => {
           </h1>
         </div>
 
-        <ul className="hidden md:flex gap-10 font-semibold dark:text-slate-50 text-white dark:bg-green-900/10 backdrop-blur-lg p-3 rounded-3xl bg-slate-900/95 ">
+        <ul className="hidden lg:flex gap-10 font-semibold dark:text-slate-50 text-white dark:bg-green-900/10 backdrop-blur-lg p-3 rounded-3xl bg-slate-900/95 ">
           {links.map((link, index) => (
             <motion.li
               initial={{ opacity: 0, y: -20 }}
@@ -56,7 +56,7 @@ const Navigation = () => {
         </ul>
         <ThemeToggle />
         <div
-          className="md:hidden cursor-pointer dark:text-slate-50 text-slate-950"
+          className="lg:hidden cursor-pointer dark:text-slate-50 text-slate-950"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
@@ -69,7 +69,7 @@ const Navigation = () => {
               animate={{ opacity: 1, y: 0, x: 0 }}
               exit={{ opacity: 0, y: "-100%" }}
               transition={{ duration: 0.5 }}
-              className="absolute rounded-md top-full left-[25%]  w-[50%] bg-slate-900/95 backdrop-blur-lg flex flex-col  items-center gap-20  py-8 text-lg font-semibold text-slate-300 md:hidden shadow-lg"
+              className="absolute rounded-md top-full left-[25%]  w-[50%] bg-slate-900/95 backdrop-blur-lg flex flex-col items-center gap-20  py-8 text-lg font-semibold text-slate-300 lg:hidden shadow-lg"
             >
               <div className="absolute top-[calc(100%-8px)] w-1/2  h-2 rounded-md bg-gradient-to-r from-red-400 to-blue-500 "></div>
               <div className="absolute top-0 w-1/2  h-2  rounded-md  bg-gradient-to-r from-red-400 to-blue-500 "></div>

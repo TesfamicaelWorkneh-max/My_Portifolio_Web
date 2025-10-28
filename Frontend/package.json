@@ -17,8 +17,10 @@
     "lodash": "^4.17.21",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-fast-marquee": "^1.6.5",
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^9.16.0",
+    "react-marquee-slider": "^1.1.5",
     "react-router-dom": "^7.8.0",
     "zustand": "^5.0.7"
   },

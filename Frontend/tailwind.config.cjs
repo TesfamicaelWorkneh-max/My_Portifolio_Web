@@ -9,15 +9,21 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        marquee: {
+        scrollLeft: {
           "0%": { transform: "translateX(0%)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        scrollUp: {
+          "0%": { transform: "translateY(100%)" },
+          "100%": { transform: "translateY(-50%)" },
+        },
       },
       animation: {
-        marquee: "marquee 30s linear infinite",
+        scrollLeft: "scrollLeft 20s linear infinite",
+        scrollUp: "scrollUp 20s linear infinite",
       },
     },
   },
+
   plugins: [],
 };

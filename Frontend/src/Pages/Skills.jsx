@@ -26,7 +26,13 @@ const Skills = () => {
   return (
     <section className="py-20 bg-white dark:bg-slate-950 min-h-[100vh] flex items-center justify-center">
       <div className="max-w-6xl flex flex-col items-center gap-16">
-        <h1 className="text-4xl xl:text-6xl font-bold text-center text-slate-900 dark:text-white relative">
+        <h1
+          className="w-fit relative text-3xl xl:text-4xl dark:text-white font-bold mb-8
+           text-slate-950 text-center before:absolute before:h-1 before:w-full 
+           before:content-[''] dark:before:bg-white before:bg-slate-950 before:left-0 before:top-[110%]
+           after:absolute after:w-5 after:h-5 after:bg-red-600 after:content-[''] 
+           after:left-[50%] after:-translate-x-[50%] after:rounded-full after:top-[110%] after:-translate-y-[50%]"
+        >
           My <span className="text-red-600">Skills</span>
         </h1>
 

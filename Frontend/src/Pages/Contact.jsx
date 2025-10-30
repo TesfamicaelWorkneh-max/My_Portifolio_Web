@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import nasa from "../assets/nasa.png";
+import nasa from "../assets/nasa-vhSz50AaFAs-unsplash.png";
 // import real_estate from "../assets/rel-estate.png";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
@@ -91,7 +91,7 @@ const Contact = () => {
         >
           <div
             ref={globeRef}
-            className="w-80 h-80 max-sm:w-60 max-sm:h-60 rounded-full flex items-center justify-center overflow-hidden bg-red-500"
+            className="w-80 h-80 max-sm:w-60 max-sm:h-60 rounded-full flex items-center justify-center overflow-hidden bg-transparent"
           >
             <img
               src={nasa}

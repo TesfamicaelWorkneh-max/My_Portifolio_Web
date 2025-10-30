@@ -13,13 +13,22 @@ const App = () => {
     <>
       <Navigation />
 
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projucts />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projucts />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+
       <Footer />
     </>
   );
